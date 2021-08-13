@@ -1,9 +1,9 @@
-import { Albums, Slide } from '../types/recommend';
+import { IAlbums, ISlider } from '../types/recommend';
 import { get } from './base';
 
 interface RecommendResponse {
-  albums: Albums[];
-  sliders: Slide[];
+  albums: IAlbums[];
+  sliders: ISlider[];
 }
 
 export const getRecommend = (): Promise<RecommendResponse> =>

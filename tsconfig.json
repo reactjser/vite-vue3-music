@@ -11,6 +11,8 @@
     "lib": ["esnext", "dom"],
     // 不生成输出文件
     "noEmit": true,
+    // 跳过所有声明文件的类型检查
+    "skipLibCheck": true,
     // 用于解析非相对模块名称的基目录
     "baseUrl": ".",
     // 模块名到基于 baseUrl 的路径映射的列表
