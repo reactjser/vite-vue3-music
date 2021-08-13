@@ -1,0 +1,5 @@
+{
+  "src/**/*.{vue,ts,tsx}": ["eslint --fix", "bash -c vue-tsc"],
+  "src/**/*.{css,scss,vue}": "stylelint --fix",
+  "*.{vue,js,jsx,ts,tsx,json,css,scss,md}": "prettier --write"
+}
