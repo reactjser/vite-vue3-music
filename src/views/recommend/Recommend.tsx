@@ -22,12 +22,12 @@ export default defineComponent({
     });
 
     return () => (
-      <div class="recommend">
+      <div class="recommend" v-loading={loading.value}>
         <Scroll class="recommend-content">
           <div>
             <div class="slider-wrapper">
               <div class="slider-content">
-                {sliders.value.length && <Slider sliders={sliders.value} />}
+                {sliders.value.length > 0 && <Slider sliders={sliders.value} />}
               </div>
               <div class="recommend-list"></div>
             </div>

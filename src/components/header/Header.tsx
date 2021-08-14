@@ -10,9 +10,9 @@ export default defineComponent({
       <div class="header">
         <span class="icon"></span>
         <h1 class="text">Chicken Music</h1>
-        <RouterLink class="mine" to="/user">
+        {/* <RouterLink class="mine" to="/user">
           <i class="icon-mine"></i>
-        </RouterLink>
+        </RouterLink> */}
       </div>
     );
   },
