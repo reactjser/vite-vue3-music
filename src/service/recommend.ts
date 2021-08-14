@@ -1,8 +1,8 @@
-import { IAlbums, ISlider } from '../types/recommend';
+import { IAlbum, ISlider } from '../types/recommend';
 import { get } from './base';
 
 interface RecommendResponse {
-  albums: IAlbums[];
+  albums: IAlbum[];
   sliders: ISlider[];
 }
 

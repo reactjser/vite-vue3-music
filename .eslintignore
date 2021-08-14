@@ -1,1 +1,3 @@
 backend/
+# TODO: fix ts
+src/directives/lazyload

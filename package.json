@@ -8,11 +8,12 @@
     "serve": "vite preview",
     "lint:script": "eslint --ext .ts,vue --ignore-path .gitignore .",
     "lint:ts": "vue-tsc",
-    "format": "prettier --write \"*.{vue,js,jsx,ts,tsx,json,css,scss,md}\"",
+    "format": "prettier --write \"src/**/*.{vue,js,jsx,ts,tsx,json,css,scss,md}\"",
     "prepare": "husky install"
   },
   "dependencies": {
     "@better-scroll/core": "^2.4.2",
+    "@better-scroll/observe-dom": "^2.4.2",
     "@better-scroll/slide": "^2.4.2",
     "axios": "^0.21.1",
     "vue": "^3.2.2",
